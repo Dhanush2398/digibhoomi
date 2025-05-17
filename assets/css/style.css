@@ -19423,11 +19423,14 @@ span.select2-selection.select2-selection--single:focus {
   }
 }
 
-.faq-img1 img{
-  height: 400px;
-  margin-top: 200px;
-}
 
 .why-img-box .img1 img{
   padding-top: 100px;
 }
+
+@media (max-width: 7678px) {
+  .custom-contact-section {
+    margin-top: 80px; 
+  }
+}
+
