@@ -17054,6 +17054,7 @@ span.select2-selection.select2-selection--single:focus {
   padding: 30px 25px 30px;
   margin: 0 0 18px 18px;
   position: relative;
+  height: 250px;
 }
 .process-card .box-content .box-text {
   max-width: 221px;
@@ -19442,3 +19443,4 @@ span.select2-selection.select2-selection--single:focus {
 .map{
   margin-top: 20px;
 }
+
