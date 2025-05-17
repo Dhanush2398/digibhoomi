@@ -19357,7 +19357,6 @@ span.select2-selection.select2-selection--single:focus {
 }
 
 .swiper-wrapper  {
-  height: 800px;
   background-size: cover;
   background-position: center;
   display: flex;
@@ -19381,9 +19380,7 @@ span.select2-selection.select2-selection--single:focus {
     margin-bottom: 50px;
   }
 
-  .swiper-wrapper  {
-  height: 500px;
-}
+
   .hero-style2 {
     padding: 40px 20px 20px;
     text-align: center;
@@ -19428,9 +19425,7 @@ span.select2-selection.select2-selection--single:focus {
   padding-top: 100px;
 }
 
-@media (max-width: 7678px) {
-  .custom-contact-section {
-    margin-top: 80px; 
+ .custom-contact-section {
+    margin-top: 380px; 
   }
-}
 
