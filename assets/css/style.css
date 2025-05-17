@@ -19429,3 +19429,13 @@ span.select2-selection.select2-selection--single:focus {
     margin-top: 380px; 
   }
 
+.map h5{
+  
+  color: #28a745;
+}
+
+.map p {
+  font-size: 16px;
+  color: #555;
+  margin: 0;
+}
