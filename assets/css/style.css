@@ -19572,3 +19572,145 @@ span.select2-selection.select2-selection--single:focus {
   color: #0d6efd;
   text-decoration: underline;
 }
+
+
+.job-card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 24px;
+  margin-bottom: 32px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+}
+
+.job-card:hover {
+  transform: translateY(-4px);
+}
+
+.job-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.job-title {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #0d6efd;
+}
+
+.job-salary {
+  font-size: 1.25rem;
+  font-weight: 600;
+  background: #198754;
+  color: #fff;
+  padding: 6px 14px;
+  border-radius: 8px;
+}
+
+.job-info {
+  color: #6c757d;
+  font-size: 0.95rem;
+  margin-bottom: 16px;
+}
+
+.job-info div {
+  margin-bottom: 6px;
+}
+
+.section-title {
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin-top: 24px;
+  margin-bottom: 12px;
+  color: #343a40;
+}
+
+.job-description p {
+  margin-bottom: 10px;
+  font-size: 0.98rem;
+  color: #495057;
+}
+
+.job-actions {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.job-actions .btn {
+  margin: 0 8px;
+  padding: 12px 24px;
+  font-size: 1rem;
+  border-radius: 30px;
+  transition: all 0.3s ease-in-out;
+}
+
+.job-actions .btn-primary {
+  background-color: #0d6efd;
+  border: none;
+}
+
+.job-actions .btn-primary:hover {
+  background-color: #0b5ed7;
+}
+
+.job-actions .btn-outline-secondary {
+  border: 1px solid #6c757d;
+  color: #6c757d;
+}
+
+.job-actions .btn-outline-secondary:hover {
+  background-color: #6c757d;
+  color: #fff;
+}
+
+.application-form {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  margin-top: 50px;
+}
+
+.application-form input[type="text"],
+.application-form input[type="email"],
+.application-form input[type="tel"],
+.application-form input[type="file"] {
+  padding: 10px 16px;
+  border-radius: 10px;
+  border: 1px solid #ced4da;
+  width: 100%;
+}
+
+.application-form button {
+  padding: 12px 30px;
+  background-color: #198754;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  font-size: 1rem;
+  transition: 0.3s ease;
+}
+
+.application-form button:hover {
+  background-color: #157347;
+}
+
+
+@media (max-width: 768px) {
+  .job-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .job-title {
+    font-size: 1.5rem;
+  }
+
+  .job-salary {
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+}
