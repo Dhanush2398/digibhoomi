@@ -19481,3 +19481,56 @@ span.select2-selection.select2-selection--single:focus {
   color: #555;
   line-height: 1.7;
 }
+
+
+.contact-info-top {
+  background-color: #f8f9fa; 
+  padding: 40px 0;
+  border-radius: 10px;
+}
+
+
+.contact-info-top .info-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  gap: 10px;
+  background: #fff;
+  padding: 15px 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  transition: 0.3s ease-in-out;
+}
+
+.contact-info-top .info-box:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+}
+
+
+.contact-info-top .info-box i {
+  font-size: 20px;
+  color: #1A75BB; 
+  min-width: 25px;
+}
+
+
+.contact-info-top .info-box p {
+  font-weight: 600;
+  margin: 0;
+  font-size: 14px;
+  color: #333;
+}
+
+.contact-info-top .info-box a {
+  font-size: 14px;
+  color: #555;
+  text-decoration: none;
+}
+
+.contact-info-top .info-box a:hover {
+  color: #0d6efd;
+  text-decoration: underline;
+}
+
