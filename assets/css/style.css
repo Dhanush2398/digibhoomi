@@ -19751,3 +19751,56 @@ span.select2-selection.select2-selection--single:focus {
 .fw-bold {
   color: #F84923;
 }
+
+.clients-section {
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.clients-section h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.clients-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  justify-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.client-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  text-align: center;
+  width: 100%;
+  max-width: 220px;
+  transition: transform 0.3s;
+}
+
+.client-card:hover {
+  transform: translateY(-5px);
+}
+
+.client-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+}
+
+.client-card img {
+  max-width: 100%;
+  height: 150px;
+  object-fit: contain;
+}
+.client-card h3{
+  color: #F84923;
+}
+
+.clients-section h2{
+   color: #F84923;
+}
