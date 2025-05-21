@@ -19804,3 +19804,89 @@ span.select2-selection.select2-selection--single:focus {
    color: #F84923;
 }
 
+.debt-hero {
+  background: #f8f9fa;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.debt-hero h1 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: #F84923;
+}
+
+.debt-hero p {
+  font-size: 18px;
+  color: #555;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.debt-main-content {
+  background: #fff;
+}
+
+.content-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  align-items: flex-start;
+}
+
+.debt-text {
+  flex: 1 1 60%;
+  color: #333;
+}
+
+.debt-text h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #F84923;
+}
+
+.debt-text h3 {
+  font-size: 20px;
+  margin-top: 25px;
+  color: #F84923;
+}
+
+.debt-text p {
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+.debt-text ul {
+  padding-left: 20px;
+  list-style-type: disc;
+}
+
+.debt-text ul li {
+  margin-bottom: 10px;
+}
+
+.debt-image {
+  flex: 1 1 35%;
+}
+
+.debt-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+@media (max-width: 768px) {
+  .content-grid {
+    flex-direction: column;
+  }
+
+  .debt-hero h1 {
+    font-size: 28px;
+  }
+
+  .debt-text h2 {
+    font-size: 24px;
+  }
+}
